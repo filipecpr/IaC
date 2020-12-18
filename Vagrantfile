@@ -39,6 +39,7 @@ Vagrant.configure("2") do |config|
     mysql.vm.provision "shell", inline: "cat /vagrant/id_rsa.pub >> .ssh/authorized_keys"
 
   end
+# maquina ansible
 
   config.vm.define "ansible" do |ansible|
     ansible.vm.hostname = "ansible"
