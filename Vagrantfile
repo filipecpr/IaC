@@ -1,7 +1,7 @@
-# $script_apache = <<-SCRIPT
-# apt-get update
-# apt-get -y install puppet
-# SCRIPT
+ $script_apache = <<-SCRIPT
+ apt-get update
+ apt-get -y install puppet
+ SCRIPT
 
 $script_ansible = <<-SCRIPT
 apt-get update
